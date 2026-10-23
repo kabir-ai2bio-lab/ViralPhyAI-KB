@@ -1,0 +1,34 @@
+{
+  "excluded_heteromeric_complex_by_dataset": {
+    "mdrepo": 581,
+    "mddb": 217,
+    "mdcath": 0,
+    "dynodb": 0
+  },
+  "total_input_records": 5732,
+  "distinct_exact_sequences": 1535,
+  "sequences_shared_by_multiple_records": 721,
+  "records_kept": 3315,
+  "records_removed_as_true_duplicates": 2417,
+  "same_sequence_kept_due_to_different_or_unverifiable_condition": 2009,
+  "removed_duplicates_by_dataset_pair": {
+    "mdcath<->mdrepo": 298,
+    "mdrepo<->mdrepo": 494,
+    "mddb<->mdrepo": 259,
+    "dynodb<->dynodb": 89,
+    "mddb<->mddb": 1260,
+    "mdcath<->mddb": 17
+  },
+  "kept_by_dataset": {
+    "mdrepo": 2317,
+    "mddb": 617,
+    "mdcath": 11,
+    "dynodb": 370
+  },
+  "removed_by_dataset": {
+    "mdrepo": 494,
+    "mddb": 1519,
+    "mdcath": 315,
+    "dynodb": 89
+  }
+}
